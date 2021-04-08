@@ -1,0 +1,45 @@
+
+WORKSHEET TO WORK THROUGH ALGOS
+
+Range Calc for toPoint:
+(1: 2x2, 2: 1x4, 3: 2x4, 4:2x8)
+
+2x2 (south and east are the same)
+Cords 0,0
+0,1 1,1 1,0 0,0 valid
+
+1X4
+Cords 0,0
+East: 0,0-3
+South: 0-3, 0
+
+2X4
+Cords 0,0
+East: 0-1,0-3
+South: 0-3, 0-1
+
+2X8
+Cords 0,0
+East: 0-1,0-7
+South: 0-7, 0-1
+
+
+Uplinks/downlinks:
+
+# THIS HAS BEEN CHANGED DRAMATICALLY
+
+Only need to check blocks 1 level lower:
+Traverse Blocks on that level in the structure
+# @allblocks.each_with_index do |row, row_idx|
+#   row.each_with_index do |col, col_idx|
+#     if block.toPoint["rangeX"].include?(row_idx) && block.toPoint["rangeY"].include?(col_idx)
+#     @allblocks[row_idx][col_idx] = block.getColor
+#     end
+#   end
+# end
+Similar to the loops above, check if new block has same range as block being checked
+if true:
+Add downlink for new block = to that block
+Add uplink for block cross checked to new block
+
+regenerateStructureList:
