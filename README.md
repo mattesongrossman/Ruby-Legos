@@ -2,9 +2,11 @@
 
 ## Final Project Created For Object Oriented Design Class Spring 2019
 
-### Structures Already Prebuilt to Satisfy Testing Requirements (UI only on terminal)
+### Structures Already Prebuilt to Satisfy Testing Requirements (UI only in terminal)
 
-#### 1. Run in terminal: ruby Main.rb
+#### 1. Change directory in terminal: cd Lego
+
+#### 2. Run in terminal: ruby Main.rb
 
 ##### Four Options Once File is Started:
 
