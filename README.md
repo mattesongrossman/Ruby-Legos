@@ -1,5 +1,7 @@
 # Ruby Legos
 
+## Legos! Build lego structures with different types of blocks
+
 ## Final Project Created For Object Oriented Design Class Spring 2019
 
 ### Structures Already Prebuilt to Satisfy Testing Requirements (UI only in terminal)
